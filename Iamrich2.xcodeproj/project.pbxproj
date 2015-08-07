@@ -14,6 +14,7 @@
 		E10A629D1B736581004E3498 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E10A629C1B736581004E3498 /* Images.xcassets */; };
 		E10A62A01B736582004E3498 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E10A629E1B736582004E3498 /* LaunchScreen.xib */; };
 		E10A62AC1B736582004E3498 /* Iamrich2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E10A62AB1B736582004E3498 /* Iamrich2Tests.m */; };
+		E10A62B71B7365CF004E3498 /* ruby.png in Resources */ = {isa = PBXBuildFile; fileRef = E10A62B61B7365CF004E3498 /* ruby.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		E10A62A51B736582004E3498 /* Iamrich2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Iamrich2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E10A62AA1B736582004E3498 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E10A62AB1B736582004E3498 /* Iamrich2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Iamrich2Tests.m; sourceTree = "<group>"; };
+		E10A62B61B7365CF004E3498 /* ruby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ruby.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				E10A62931B736581004E3498 /* AppDelegate.h */,
+				E10A62B51B7365AA004E3498 /* photo */,
 				E10A62941B736581004E3498 /* AppDelegate.m */,
 				E10A62961B736581004E3498 /* ViewController.h */,
 				E10A62971B736581004E3498 /* ViewController.m */,
@@ -117,6 +120,14 @@
 				E10A62AA1B736582004E3498 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E10A62B51B7365AA004E3498 /* photo */ = {
+			isa = PBXGroup;
+			children = (
+				E10A62B61B7365CF004E3498 /* ruby.png */,
+			);
+			name = photo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E10A629B1B736581004E3498 /* Main.storyboard in Resources */,
+				E10A62B71B7365CF004E3498 /* ruby.png in Resources */,
 				E10A62A01B736582004E3498 /* LaunchScreen.xib in Resources */,
 				E10A629D1B736581004E3498 /* Images.xcassets in Resources */,
 			);
